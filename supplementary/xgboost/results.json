@@ -1,0 +1,91 @@
+{
+    "model_name": "xgboost",
+    "confusion_matrix": [
+        {
+            "Unclassified": 55601,
+            "HBOND": 23611,
+            "VDW": 20808,
+            "PIPISTACK": 1568,
+            "IONIC": 2428,
+            "PICATION": 1949,
+            "SSBOND": 66,
+            "PIHBOND": 168
+        },
+        {
+            "Unclassified": 19190,
+            "HBOND": 50191,
+            "VDW": 21984,
+            "PIPISTACK": 1860,
+            "IONIC": 7496,
+            "PICATION": 1834,
+            "SSBOND": 49,
+            "PIHBOND": 149
+        },
+        {
+            "Unclassified": 21849,
+            "HBOND": 24432,
+            "VDW": 16295,
+            "PIPISTACK": 2468,
+            "IONIC": 4319,
+            "PICATION": 1923,
+            "SSBOND": 152,
+            "PIHBOND": 256
+        },
+        {
+            "Unclassified": 1,
+            "HBOND": 9,
+            "VDW": 21,
+            "PIPISTACK": 3667,
+            "IONIC": 0,
+            "PICATION": 0,
+            "SSBOND": 0,
+            "PIHBOND": 36
+        },
+        {
+            "Unclassified": 18,
+            "HBOND": 136,
+            "VDW": 69,
+            "PIPISTACK": 0,
+            "IONIC": 3208,
+            "PICATION": 0,
+            "SSBOND": 0,
+            "PIHBOND": 0
+        },
+        {
+            "Unclassified": 14,
+            "HBOND": 17,
+            "VDW": 28,
+            "PIPISTACK": 0,
+            "IONIC": 0,
+            "PICATION": 771,
+            "SSBOND": 0,
+            "PIHBOND": 28
+        },
+        {
+            "Unclassified": 0,
+            "HBOND": 1,
+            "VDW": 24,
+            "PIPISTACK": 0,
+            "IONIC": 0,
+            "PICATION": 0,
+            "SSBOND": 177,
+            "PIHBOND": 0
+        },
+        {
+            "Unclassified": 16,
+            "HBOND": 14,
+            "VDW": 32,
+            "PIPISTACK": 27,
+            "IONIC": 0,
+            "PICATION": 31,
+            "SSBOND": 0,
+            "PIHBOND": 52
+        }
+    ],
+    "results": {
+        "Balanced Accuracy": 0.6047898026227696,
+        "AUC-ROC": 0.9185636781052521,
+        "Matthews Correlation Coefficient": 0.21932210846915592,
+        "Average Precision Score": 0.33570485077948176
+    }
+}

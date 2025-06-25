@@ -1,0 +1,10 @@
+{
+    "model_name": "xgboost",
+    "confusion_matrix": 0,
+    "results": {
+        "Balanced Accuracy": 0.0,
+        "AUC-ROC": 0.0,
+        "Matthews Correlation Coefficient": 0.0,
+        "Average Precision Score": 0.0
+    }
+}
