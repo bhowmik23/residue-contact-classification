@@ -9,7 +9,7 @@ Authors: Anahita Soltantouyeh, Mikael Poli, Biddut Bhowmik – Structural Bioinf
 Protein structures are stabilized by various residue-residue interactions, including hydrogen bonds, van der Waals contacts, disulfide bridges, salt bridges, and $\pi-\pi$ interactions. Accurately classifying these contacts is essential for understanding protein folding, stability, and function.
 Traditionally, software like RING ([Del Conte et al., 2024](https://academic.oup.com/nar/article/52/W1/W306/7660079)) identifies and classifies residue-residue contacts in protein structures using geometric and physicochemical rules. In this project, we experiment with a machine learning-based approach to predict the type of contacts without relying directly on geometric thresholds.
 
-For full implementation details, we recommend reading the report.
+For full implementation details, we recommend reading the [report](https://github.com/mikaelpoli/residue-contact-classification/blob/main/report.pdf).
 
 ## Essential Repo Structure
 [root.]
