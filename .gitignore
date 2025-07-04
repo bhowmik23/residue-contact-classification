@@ -2,3 +2,5 @@ data/train-resampled
 data/val
 data/test
 data/data.csv
+figures/report
+report.pdf
