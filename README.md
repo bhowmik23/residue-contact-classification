@@ -12,17 +12,18 @@ Traditionally, software like RING ([Del Conte et al., 2024](https://academic.oup
 For full implementation details, we recommend reading the [report](https://github.com/mikaelpoli/residue-contact-classification/blob/main/report.pdf).
 
 ## Essential Repo Structure
-[root.]
-  - 3di_model/
-  - data/
-  - figures/
-  - model/
-  - output/
-  - scripts/
-  - supplementary/
-  - src/
-main.ipynb
-combine_dfs.py
+
+	[root.]
+	    → 3di_model/
+	    → data/
+	    → figures/
+	    → model/
+	    → output/
+	    → scripts/
+	    → supplementary/
+	    → src/
+	    main.ipynb
+	    combine_dfs.py
 
 ### Component Descriptions
 * `combine_dfs.py`: Merges a list of .tsv feature files (one per PDB structure) into a single dataframe. This unified dataset can be passed to `main.ipynb` for preprocessing and model training.
@@ -52,8 +53,9 @@ python3 scripts/run_pipeline.py pdb_files/6vw9.cif
 
 ## Output
 All results are saved in:
-
-`output/<pdb_id>/`
+```
+output/<pdb_id>/
+```
 #### Files include:
     * `<pdb_id>_features.tsv` → residue features
     * `<pdb_id>_3di.tsv` → 3Di states
