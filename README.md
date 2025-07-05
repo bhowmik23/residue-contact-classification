@@ -37,24 +37,27 @@ combine_dfs.py
 
 * `3di_model/`, `scripts/`, `output/`: Contain code and outputs related to the contact type prediction software.
 
-## How to Use
+## Running the Pipeline
+Run from the terminal:
+python3 scripts/run_pipeline.py <path_to_cif_file>
+Example:
+python3 scripts/run_pipeline.py pdb_files/6vw9.cif
 
-Place your protein CIF file (e.g. `6vw9.cif`) in the project root folder.
-
-Then run:
-
-    python3 scripts/run_pipeline.py 6vw9.cif
-
-Outputs for the protein will be saved in:
-
-    output/6vw9/
-
-Files generated:
-* `6vw9_features.tsv`: Structural features extracted from the protein.
-* `6vw9_3di.tsv`: 3Di alphabet features.
-* `6vw9_merged.tsv`: Merged feature file.
-* `6vw9_predictions.tsv`: Final predictions with RING contact classes and scores.
-
+## Output
+All results are saved in:
+output/<pdb_id>/
+#### Files include:
+    * `<pdb_id>_features.tsv` → residue features
+    * `<pdb_id>_3di.tsv` → 3Di states
+    * `<pdb_id>_merged.tsv` → merged feature table
+    * `<pdb_id>_predictions.tsv` → final predictions
+    
+#### Each contact prediction includes:
+    * Source & target residues
+    * Structural and physico-chemical features
+    * Predicted contact type
+    * Prediction score
+    
 ### Scripts Overview
 #### scripts/calc_features.py
 * Loads a PDB/mmCIF structure.
