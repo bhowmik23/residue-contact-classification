@@ -2,7 +2,7 @@
 
 This repository contains the implementation of a supervised predictor for residue–residue contact types in protein structures. The pipeline processes a PDB/mmCIF file, extracts structural features, and predicts RING interaction classes using an XGBoost OvR ensemble.
 
-Authors: Anahita Soltantouyeh, Mikael Poli, Biddut Bhowmik – Structural Bioinformatics Course – UNIPD – A.Y. 2024/25
+Authors: [Anahita Soltantouyeh](https://github.com/anahita-soltan), [Mikael Poli](https://github.com/mikaelpoli), [Biddut Bhowmik](https://github.com/bhowmik23) – Structural Bioinformatics Course – UNIPD – A.Y. 2024/25
 
 ## Project Overview
 
@@ -39,13 +39,21 @@ combine_dfs.py
 
 ## Running the Pipeline
 Run from the terminal:
+
+```
 python3 scripts/run_pipeline.py <path_to_cif_file>
+```
 Example:
+
+
+```
 python3 scripts/run_pipeline.py pdb_files/6vw9.cif
+```
 
 ## Output
 All results are saved in:
-output/<pdb_id>/
+
+`output/<pdb_id>/`
 #### Files include:
     * `<pdb_id>_features.tsv` → residue features
     * `<pdb_id>_3di.tsv` → 3Di states
