@@ -28,7 +28,7 @@ For full implementation details, we recommend reading the [report](https://githu
 ### Component Descriptions
 * `combine_dfs.py`: Merges a list of .tsv feature files (one per PDB structure) into a single dataframe. This unified dataset can be passed to `main.ipynb` for preprocessing and model training.
 
-* `main.ipynb`: Jupyter notebook for data preprocessing and model training. It uses datasets located in the `data/ directory (resampled training, validation, and test sets). To retrain the model, run the Setup and Model: XGBoost sections.
+* `main.ipynb`: Jupyter notebook for data preprocessing and model training. It uses datasets located in the `data/` directory (resampled training, validation, and test sets). To retrain the model, run the Setup and Model: XGBoost sections.
 
 * `src/`: Contains utility functions used throughout the pipeline, including feature processing and model handling.
 
